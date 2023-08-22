@@ -1,0 +1,470 @@
+body {
+  background-color: whitesmoke;
+}
+
+#parallax {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://aceequipment.co.nz/wp-content/uploads/2017/02/home-banner1.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  top: -205.5px;
+  z-index: 1;
+}
+
+#flex-container2 {
+  display: flex;
+  position: relative;
+  left: 775px;
+  top: -84px;
+  z-index: 2;
+  border: 2px solid red;
+  margin-right: 842px;
+  justify-content: space-between;
+}
+
+#linkStyles {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  padding-bottom: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  top: 16px;
+  left: 0px;
+  padding: 15px;
+  padding-top: 16px;
+}
+
+.linkStyles:hover {
+  background-color: white;
+  color: black;
+}
+
+.linkStyles2:hover {
+  background-color: white;
+  color: black;
+}
+
+.linkStyles3:hover {
+  background-color: white;
+  color: black;
+}
+
+.linkStyles4:hover {
+  background-color: white;
+  color: black;
+}
+
+.linkStyles2 {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  padding-bottom: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+  position: relative;
+  top: 16px;
+  left: 0px;
+  padding-top: 16px;
+}
+
+.linkStyles3 {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  padding-bottom: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+  position: relative;
+  top: 16px;
+  left: 0px;
+  padding-top: 16px;
+}
+
+.linkStyles4 {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  padding-bottom: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+  position: relative;
+  top: 16px;
+  left: -2px;
+  padding-top: 16px;
+}
+
+.linkStyles5 {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: red;
+  padding-bottom: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+  margin-left: -4px;
+  position: relative;
+  left: 0px;
+}
+
+.linkStyles6 {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  background-color: black;
+  padding-bottom: 35px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 15px;
+  position: relative;
+  top: 16px;
+  left: -4.5px;
+  padding-top: 16px;
+}
+
+.linkStyles6:hover {
+  background-color: white;
+  color: black;
+}
+
+.linkStylesMRC {
+  text-decoration: none;
+  color: white;
+}
+
+span {
+  position: relative;
+  top: -2px;
+}
+
+main {
+  position: relative;
+  z-index: 2;
+  color: white;
+  left: 133px;
+  top: 30px;
+}
+
+main h1 {
+  font-size: 33px;
+  position: relative;
+  left: 22px;
+  background-color: black;
+  margin-right: 1350px;
+  padding-left: 47px;
+  border: 1.5px solid red;
+  border-bottom: none;
+}
+
+main p {
+  position: relative;
+  top: -29px;
+  left: 22px;
+  background-color: black;
+  margin-right: 1350px;
+  padding-left: 42px;
+  padding-bottom: 8px;
+  border: 1.5px solid red;
+  border-top: none;
+}
+
+#h1 {
+  position: relative;
+  left: 100px;
+  top: -110px;
+  font-size: 85px;
+  color: white;
+  margin-top: 105px;
+}
+
+#h11 {
+  color: white;
+  font-size: 85px;
+  position: relative;
+  left: -311px;
+  bottom: -20px;
+  top: -10px;
+  margin-top: 100px;
+}
+
+#h2 {
+  position: relative;
+  left: -940px;
+  top: 75px;
+  color: white;
+  bottom: -100px;
+  font-weight: 500;
+  font-size: 28px;
+  margin-top: 70px;
+}
+
+.parallax-image {
+  position: relative;
+  top: -1450px;
+  filter: brightness(40%);
+}
+
+.provider {
+  border-radius: 0.5rem;
+  box-shadow: 0px 0px 7px #666;
+}
+
+.imgOne {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headerOne h1 {
+  z-index: 1;
+  position: relative;
+  top: -3420px;
+}
+
+#hOne {
+  position: relative;
+  top: -3400px;
+}
+
+#footer {
+  position: relative;
+  top: -3480px;
+  text-align: center;
+}
+
+.footer2 {
+  margin-top: 1710px;
+}
+
+#footer3 {
+  position: relative;
+  top: 1995px;
+}
+
+.textDecoration {
+  text-decoration: none;
+  color: white;
+}
+
+.flex-container img {
+  width: 400px;
+  transition:
+    transform 0.6s ease,
+    filter 1s ease;
+}
+
+.flex-container {
+  position: relative;
+  left: 154px;
+  top: 40px;
+  display: grid;
+  grid-template-columns: 200px 200px 200px;
+  column-gap: 220px;
+  cursor: pointer;
+}
+
+#height1 {
+  height: 325px;
+}
+
+.flex-container img:hover {
+  transform: scale(1.08);
+  filter: brightness(60%);
+}
+
+#highway {
+  position: relative;
+  left: 120px;
+  top: -32.5px;
+}
+
+#region {
+  position: relative;
+  left: 171px;
+  top: -32.5px;
+}
+
+#bridge {
+  position: relative;
+  left: 144px;
+  top: -32px;
+}
+
+#apartment {
+  position: relative;
+  left: 119px;
+  top: -32px;
+}
+
+#complex {
+  position: relative;
+  left: 241px;
+  top: -65px;
+}
+
+#station {
+  position: relative;
+  left: 203px;
+  top: -30px;
+}
+
+#interchange {
+  position: relative;
+  left: 108px;
+  top: -31px;
+}
+
+.imgStyles {
+  text-decoration: none;
+  color: black;
+}
+
+.footerAbout {
+  position: relative;
+  top: 2635px;
+}
+
+.div-gridContainer {
+  position: relative;
+  left: 400px;
+  display: grid;
+  grid-template-rows: repeat(6, 200px);
+  row-gap: 20px;
+}
+
+.slideOne {
+  border: 1.5px solid red;
+  margin-right: 1200px;
+  padding: 95px;
+  background-color: white;
+}
+
+.slideOne:nth-of-type(1) {
+  position: relative;
+  left: -310.5px;
+  height: 335px;
+  border: none;
+  top: 30px;
+  padding-right: 20px;
+}
+
+.slideOne:nth-of-type(2) {
+  position: relative;
+  left: 35px;
+  top: -189px;
+  border: none;
+  height: 335px;
+  padding-right: 20px;
+}
+
+.slideOne:nth-of-type(3) {
+  position: relative;
+  left: 381px;
+  top: -409px;
+  border: none;
+  height: 335px;
+  padding-right: 20px;
+}
+
+.slideOne:nth-of-type(4) {
+  position: relative;
+  left: 35.5px;
+  border: none;
+  top: -98px;
+  height: 325px;
+  padding-right: 20px;
+}
+
+.slideOne:nth-of-type(5) {
+  position: relative;
+  left: 500px;
+  left: 381px;
+  border: none;
+  top: -318px;
+  height: 325px;
+  padding-right: 20px;
+}
+
+.slideOne:nth-of-type(6) {
+  position: relative;
+  left: 726.5px;
+  border: none;
+  top: -538px;
+  height: 325px;
+  padding-right: 20px;
+}
+
+#careerSpan1 {
+  position: relative;
+  top: 10px;
+  left: -5px;
+}
+
+#careerSpan2 {
+  position: relative;
+  top: 10px;
+  left: 62px;
+}
+
+#careerSpan1:hover {
+  color: red;
+}
+
+#careerSpan2:hover {
+  color: red;
+}
+
+.careerStyles {
+  color: black;
+}
+
+.inputs {
+  position: relative;
+  top: 40px;
+}
+
+input {
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 15px;
+  left: 194px;
+  top: 140px;
+  color: white;
+  font-size: 15px;
+  transition: border-color 0.3s ease;
+}
+
+input:hover {
+  border-color: crimson;
+}
+
+option[value="Positions"] {
+  color: black;
+  background-color: white;
+  position: relative;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 2000ms;
+}
+
+.fade-exit {
+  opacity: 0;
+}
+
+.fade-exit-active {
+  opacity: 1;
+  transition: opacity 2200ms;
+}
